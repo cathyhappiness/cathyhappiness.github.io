@@ -1,0 +1,26 @@
+
+.top{
+				background: #f5f5f5;
+				width:6.4rem;
+				height:0.85rem;
+				margin-top:1.08rem;
+				position:relative;
+			}
+			.top .homes{
+				position: absolute;
+				top:0.25rem;
+				left:0.2rem;
+				width:0.4rem;
+				height: auto;
+			}
+			.top .order{
+				position: absolute;
+				top:0.25rem;
+				right: 0.2rem;
+				padding:0.04rem 0.08rem 0.06rem 0.22rem;
+				font-size: 0.2rem;
+				border:1px solid #a28584;
+				border-radius: 0.1rem;
+				color: #a28584;
+				width:1rem;
+			}

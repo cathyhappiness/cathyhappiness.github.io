@@ -1,0 +1,275 @@
+/**{
+				margin: 0px;
+				padding: 0px;
+			}
+			html{
+				font-size:100px;
+				position:relative;
+			}
+			
+			.container{
+				background: #fff;
+				width:6.4rem;
+				height: auto;
+			}
+			.head{
+				background: #1a191f;
+				width:6.4rem;
+				height: 1.08rem;
+			}
+			.nav .one{
+			    position: relative;
+			    top:-0.16rem;
+				padding-left: 0.15rem;
+				width:0.25rem;
+				height: 0.25rem;
+			}
+			.nav a{
+				position: relative;
+				top:-0.2rem;
+				left: -0.2rem;
+				margin-left: -0.06rem;
+				font-size: 0.26rem;
+				color: #fff;
+				text-decoration: none;
+			}
+			.nav .two{
+				position: relative;
+				top:-0.16rem;
+				left: 0.16rem;
+				width:1.8rem;
+				height: 0.28rem;
+			}
+			.nav .three{
+				position: relative;
+				bottom:0.25rem;
+				left: 1.4rem;
+				width:0.5rem;
+				height: 0.1rem;
+			}
+			
+			.top{
+				background: #f5f5f5;
+				width:6.4rem;
+				height:0.85rem;
+				margin:top:1.08rem;
+			}
+			.top .home{
+				position: relative;
+				top:-0.46rem;
+				left:0.22rem;
+				width:0.4rem;
+				height: auto;
+			}
+			.top .order{
+				position: relative;
+				top:-1.1rem;
+				left: 4.8rem;
+				padding:0.06rem 0.08rem 0.06rem 0.22rem;
+				font-size: 0.2rem;
+				border:1px solid #a28584;
+				border-radius: 0.1rem;
+				color: #a28584;
+				width:1rem;
+			}*/
+			.container{
+				background:#fff;
+			}
+			.advert div{
+				padding-top:0.2rem;
+				background:#2a3e6c;
+				color:#fff;
+				width:6.4rem;
+				height:0.5rem;
+				text-align:center;
+				font-size:0.16rem;
+				
+			}
+			section{
+				
+				width:6rem;
+			}
+			
+			.things{
+				padding:0.17rem;
+				border-bottom:1px solid #ccc;
+				position:relative;
+				
+				
+			}
+			.things .thing{
+				width:2rem;
+				
+				
+				vertical-align:top;
+			}
+			.things .title{
+				font-size:0.2rem;
+				font-weight:bold;
+				position:absolute;
+				left:2.3rem;
+				top:0.55rem;
+			}
+			.things .tip{
+				font-size:0.14rem;
+				color:#ccc;
+				position:absolute;
+				left:2.3rem;
+				top:0.9rem;
+				margin-right:0.2rem;
+			}
+			.things .price{
+				font-size:0.16rem;
+				position:absolute;
+				left:2.3rem;
+				top:1.8rem;
+			}
+			.things .price .current{
+				font-size:0.2rem;
+				color:#e19c08;
+			}
+			.things .price .tips{
+				position:relative;
+				left:0.8rem;
+			}
+			.spec{
+				padding:0.05rem 0.2rem;
+				font-size:0.2rem;
+				border-radius:0.08rem ;
+				/*border-raidus:1rem;*/
+				background:#2a3e6c;
+				color:#fff;
+			}
+			.free_post{
+			
+				font-size:0.16rem;
+				padding:0.2rem;
+				position:relative;
+				
+			}
+			
+			.free_post .middle{
+				position:absolute;
+				left:1.2rem;
+				top:0.25rem;
+			}
+			.free_post a{
+				position:absolute;
+				right:0.2rem;
+				top:0.2rem;
+			}
+			.full_give{
+				
+				position:relative;
+				font-size:0.16rem;
+				margin-left:0.2rem;
+				padding:0.2rem 0.2rem 0.2rem 0rem;
+				height:0.9rem;
+				border-bottom:1px solid #ccc;
+				border-top:1px solid #ccc;
+			}
+			.first_give .first_get,.full_give .full_get{
+				position:absolute;
+				right:0.2rem;
+				}
+			.full_give .middle{
+				position:absolute;
+				top:0.2rem;
+				left:1rem;
+				
+			}
+			.full_give a{
+				position:absolute;
+				top:0rem;
+				right:0.1rem;
+			}
+			.full_give .tip{
+				color:#ccc;
+			}
+			.full_give .price{
+				color:#e5aa44;
+			}
+			.first_give{
+				
+				font-size:0.16rem;
+				padding:0.2rem;
+				position:relative;
+				height:2rem;
+			}
+			.first_give .spec{
+				padding-left:0.08rem;
+				padding-right:0.08rem;
+			}
+			.line{
+				background:#f0f0f0;
+				height:0.1rem;
+			}
+			.first_give .middle{
+				position:absolute;
+				top:0.2rem;
+				left:1.2rem;
+			}
+			.first_give a{
+				position:absolute;
+				top:0rem;
+				right:0.1rem;
+			}
+			.first_give .middle>div{
+				position:relative;
+				margin-bottom:0.2rem;
+			}
+			.first_give .tip{
+				color:#ccc;
+			}
+			.first_give .price{
+				color:#e5aa44;
+			}
+			
+			.address{
+				padding:0.15rem 0.2rem;
+				font-size:0.12rem;
+				position:relative;
+				margin-bottom:0.8rem;
+			}
+			.address .tel{
+				position:absolute;
+				left:4rem;
+				top:0.2rem;
+			}
+			.address img{
+				height:0.16rem;
+				position:absolute;
+				top:0.3rem;
+				right:.2rem;
+			}
+			footer{
+				background:#f5f5f5;
+				font-size:0.16rem;
+				padding:0.16rem;
+				position:fixed;
+				bottom:0rem;
+				left:0rem;
+				height:0.38rem;
+				width:6.07rem;
+			}
+			footer .total{
+				position:absolute;
+				left:0.2rem;
+				top:0.2rem;
+				
+				
+			}
+			footer .total .price{
+				color:#e19c08;
+			}
+			footer .put input{
+				background:#2a3e6c;
+				color:#fff;
+				padding:0.1rem 0.1rem 0.15rem 0.1rem;
+				position:absolute;
+				right:0em;
+				bottom:0rem;
+				width:1.5rem;
+				height:0.7rem;
+			}
+		

@@ -1,0 +1,128 @@
+#zhezhao{
+					width: 100%;
+					height:100%;
+					background-color:#333;
+					opacity: 0.5; 
+					display: none;
+					z-index: 99999;
+					position: fixed; 
+					left: 0;
+					top: 0;
+				}
+			#motai{
+				display:none;
+				position: fixed; /* 使用绝对定位或固定定位 */
+				bottom: 0rem;
+				width:100%;
+				text-align:center;
+				z-index: 100000;
+				background-color: #f0f0f0; 
+				opacity: 1; /* 背景半透明 */
+				border-radius: 0.2rem;
+				
+				}
+			
+			#motai #format .size_style{
+				background:#2a3e6c;
+				color:#fff;
+			}
+			/*#motai #format .color_style{
+				border-color: #2a3e6c;
+				color: #2a3e6c;
+			}*/
+			
+			#motai .things{
+				padding:0.17rem;
+				border-bottom:0.01rem solid #ccc;
+				margin-bottom:0rem;
+				background:#f0f0f0;
+				
+			}
+			#motai .things .thing{
+				width:2rem;
+				vertical-align:top;
+			}
+			#motai .things .title{
+				font-size:0.2rem;
+				position:absolute;
+				left:2.3rem;
+				top:0.55rem;
+				margin-right:0.17rem;
+			}
+			#motai section{
+				text-align:left;
+			}
+			#motai .things .price{
+				font-size:0.2rem;
+				position:absolute;
+				left:2.3rem;
+				top:1rem;
+				color:#e19c08;
+			}
+			
+			#motai .things .tips{
+				position:relative;
+				left:0.14rem;
+				top:1.5rem;
+			}
+			#motai .things .tips>span{
+				margin-right:0.2rem;
+			}
+			#motai .format{
+				padding:0.18rem;
+			}
+			#motai .format>div{
+				margin-bottom:0.2rem;
+			}
+			#motai .format .tit{
+				display:inline-block;
+				width:1rem;
+			}
+			#motai .format .size span,#motai .format .color span{
+				margin-right:0.2rem;
+				background:#fff;
+				border-radius: 0.03rem;;
+			}
+			#motai .format .size span{
+				padding:0.03rem 0.3rem;
+			}
+			#motai .format .color span{
+				padding:0.05rem 0.2rem;
+				border:0.01rem solid #d7d7d7;
+			}
+			#motai .format .num .minus,#motai .format .num .plus{
+				display:inline-block;
+				width:0.4rem;
+				height:0.38rem;
+				padding-top:0.02rem;
+				text-align:center;
+				vertical-align: middle;
+				font-size:0.25rem;
+				font-weight:bold;
+				color:#999;
+				background:#f0f0f0;
+				border:0.02rem solid #d7d7d7;
+				border-radius:0.03rem 0 0 0.03rem;
+			}
+			#motai .format .num .number{
+				display:inline-block;
+				width:0.6rem;
+				height:0.33rem;
+				padding-top:0.07rem;
+				text-align:center;
+				vertical-align:middle;
+				border-top:0.02rem solid #d7d7d7;
+				border-bottom:0.02rem solid #d7d7d7;
+			}
+			#motai .format .have_checked{
+				margin-bottom:0rem;
+				text-align:right;
+			}
+			#motai .format .have_checked .size{
+				display:inline-block;
+				width:0.2rem;
+				padding-right:0.02rem;
+			}
+			#motai footer{
+				position:relative;
+			}

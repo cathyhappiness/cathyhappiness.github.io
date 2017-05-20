@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/shop_detail2.css" />
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js">
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".main").hide();
+				$("#down1,#down2").click(function(){
+					if($(this).attr("src")=="img/down.png"){
+					$(this).parent(".top1").next().show();
+					$(this).attr("src","img/up.png");
+					}else{
+						$(this).parent(".top1").next().hide();
+					$(this).attr("src","img/down.png");
+					}
+				});
+				
+				
+				
+			});
+		</script>
+	</head>
+	<body>
+		<div id="container" class="container">
+			<header class="head">     
+				<nav class="nav">
+					<img class="back" src="img/back.png" />
+					<a href="#">返回</a>
+					<a href="#">关闭</a>
+					<img class="logo" src="img/logo.png" />
+				    <img class="more" src="img/more.png" />
+				</nav>
+			</header>
+			<div class="home"><img src="img/firstpage.png" /></div>
+			<div class="list"><img src="img/list.png" /></div>
+			<section class="top">
+				 <div class="details">
+				 	商品详情
+				 </div>
+				 <div class="content">
+				 	此处图文，由运营编辑
+				 </div>
+			</section>
+			<section class="recommend">
+				<div class="details">
+				 	推荐理由
+				 </div>
+				 <div class="content1">
+				 采用泰国热带气候的新鲜椰子作为原材料，加工而成，奶香符合，有效保证脸部肌肤紧致润滑。
+				 </div>
+			</section>
+			<section class="story">
+			<div class="details">
+				 品牌故事
+				 </div>
+				 <div class="content2">
+				 由歌手孔令奇创办，因为艺人的身份，孔令奇一直很关注健康天然低卡的生活方式，从小的洛杉矶长大的他说，在西方已经有很成熟的椰子制品市场，天然的椰子是消肿、不含热量的健康饮品。
+				 </div>	
+			</section>
+			<section class="shop">
+				<div class="details">
+				 	购物须知
+				</div>
+				<div class="content3">
+					<div class="logistics">
+						<div class="top1">
+							<span>物流说明</span>
+							<img id="down1" class="down" src="img/down.png" />
+						</div>
+						<div class="main">
+							<div class="warning">
+								郑重说明：所有商品均正品保障，品牌商家直接对此负责
+							</div>
+							<div>
+								发货地：浙江<br>
+								运费：中国大陆免运费<br>
+								物流：默认商家合作快递，也可以使用平台指定快递<br>
+								发货时效：付款后，2个工作日发货<br>
+							</div>
+					</div>
+					</div>
+				  <div class="return">
+					<div class="top1">
+						<span>退换货说明</span>
+						<img id="down2" class="down" src="img/down.png" />
+					</div>
+					<div class="main">
+1、签收后7个工作日，买家可申请退换货，该商品必须保证未开封且不影响二次销售。<br />
+2、如出现快件破损，请当场拒收快件；快件一旦签收，运输过程中造成的损坏，由买家承担。<br />
+3、如出现质量问题，请于签收后48小时内联系客服，非工作日顺延。<br />
+4、如因个人原因申请退换货，由买家承担发货及退货产生的运费。<br />
+					</div>
+				  </div>
+				</div>
+			
+			<aside id="aside">
+				<a class="asidestyle">商品预览</a>
+				<a>商品详情</a>
+				<a>品牌故事</a>
+				<a>购物须知</a>
+			</aside>
+				
+			
+		</div>
+		<div class="container">
+			<header class="head">     
+				<nav class="nav">
+					<img class="back" src="img/back.png" />
+					<a href="#">返回</a>
+					<a href="#">关闭</a>
+					<img class="logo" src="img/logo.png" />
+				    <img class="more" src="img/more.png" />
+				</nav>
+			</header>
+			<div class="home"><img src="img/firstpage.png" /></div>
+			<div class="list"><img src="img/list.png" /></div>
+			<section class="top">
+				 <div class="details">
+				 	商品详情
+				 </div>
+				 <div class="content">
+				 	此处图文，由运营编辑
+				 </div>
+			</section>
+			<section class="recommend">
+				<div class="details">
+				 	推荐理由
+				 </div>
+				 <div class="content1">
+				 采用泰国热带气候的新鲜椰子作为原材料，加工而成，奶香符合，有效保证脸部肌肤紧致润滑。
+				 </div>
+			</section>
+			<section class="story">
+			<div class="details">
+				 品牌故事
+				 </div>
+				 <div class="content2">
+				 由歌手孔令奇创办，因为艺人的身份，孔令奇一直很关注健康天然低卡的生活方式，从小的洛杉矶长大的他说，在西方已经有很成熟的椰子制品市场，天然的椰子是消肿、不含热量的健康饮品。
+				 </div>	
+			</section>
+			<section class="shop">
+				<div class="details">
+				 	购物须知
+				</div>
+				<div class="content3">
+					<div class="logistics">
+						<div class="top1">
+							<span>物流说明</span>
+							<img id="down1" class="down" src="img/down.png" />
+						</div>
+						<div class="main">
+							<div class="warning">
+								郑重说明：所有商品均正品保障，品牌商家直接对此负责
+							</div>
+							<div>
+								发货地：浙江<br>
+								运费：中国大陆免运费<br>
+								物流：默认商家合作快递，也可以使用平台指定快递<br>
+								发货时效：付款后，2个工作日发货<br>
+							</div>
+					</div>
+					</div>
+				  <div class="return">
+					<div class="top1">
+						<span>退换货说明</span>
+						<img id="down2" class="down" src="img/down.png" />
+					</div>
+					<div class="main">
+1、签收后7个工作日，买家可申请退换货，该商品必须保证未开封且不影响二次销售。<br />
+2、如出现快件破损，请当场拒收快件；快件一旦签收，运输过程中造成的损坏，由买家承担。<br />
+3、如出现质量问题，请于签收后48小时内联系客服，非工作日顺延。<br />
+4、如因个人原因申请退换货，由买家承担发货及退货产生的运费。<br />
+					</div>
+				  </div>
+				</div>
+			</section>
+			<section class="buy">
+				<input type="button" class="btn" value="立即购买"/>
+			</section>
+		</div>
+		<script type="text/javascript" src="js/public.js" ></script>
+	</body>
+</html>

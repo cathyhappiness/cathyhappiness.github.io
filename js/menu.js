@@ -1,0 +1,25 @@
+$(function(){
+				$("#not_pay").click(function(){
+					$(this).addClass("menu_style").siblings().removeClass("menu_style");
+					$(".not_pay").show().siblings().hide();
+					});
+				$("#not_put").click(function(){
+					$(this).addClass("menu_style").siblings().removeClass("menu_style");
+					$(".not_put").show().siblings().hide();
+					});
+				$("#not_get").click(function(){
+					$(this).addClass("menu_style").siblings().removeClass("menu_style");
+					$(".not_get").show().siblings().hide();
+					});
+				$("#all_order").click(function(){
+					$(this).addClass("menu_style").siblings().removeClass("menu_style");
+					$(".all_order").show().siblings().hide();
+				});
+				$(".pay").click(function(){
+					location.href="information.html";
+				});
+				$(".before").click(function(){
+					window.history.go(-1);
+				});
+			});
+				

@@ -1,0 +1,93 @@
+/*商品详情*/
+
+		
+.banner img{
+	width:100%;
+	vertical-align:top;
+}
+
+section{
+	background:#fff;
+	padding:0.8rem;
+	font-size:0.8rem;
+}
+.title{
+	font-size:1rem;
+	font-weight:bold;
+}
+.tip{
+	color:#ccc;
+	position:relative;
+	top:0.2rem;
+}
+.current{
+	color:#e19c08;
+}
+.tips a{
+	color:#2a3e6c;
+	
+}
+.tips{
+	position:absolute;
+	right:0rem;
+	
+}
+.price{
+	padding-top:1rem;
+	position:relative;
+}
+.intro{
+	margin-top:0.3rem;
+	padding:0rem;
+}
+
+.intro .presentation{
+	color:#ff6161;
+	border-bottom:0.01rem #ccc solid;
+	margin-left:0rem;
+	padding-left:1rem;
+}
+.intro img{
+	width:1.5rem;
+}
+.intro .expre-tip{
+	position:absolute;
+	left:3rem;
+	top:0.8rem;
+}
+.intro .day,.intro .size{
+	position:absolute;
+	right:2rem;
+	bottom:0.5rem;
+}
+.intro .back{
+	width:0.5rem;
+	position:absolute;
+	right:1rem;
+	bottom:0.6rem;
+}
+.intro .mid{
+	border-bottom:0.01rem #ddd solid;
+}
+.intro div{
+	margin-left:0.5rem;
+	padding:0.5rem 0rem 0.5rem 0.5rem;
+	border-bottom:0.01rem #ddd solid;
+	position:relative;
+} 
+footer{
+
+	position:relative;
+}
+input[type="button"]{
+	color:#fff;
+	background:#2a3e6c;
+	border:0.01rem #2a3e6c solid;
+
+	
+	padding:0.4rem 0.8rem;
+	position:absolute;
+	right:0rem;
+	bottom:-1.8rem;
+}
+		

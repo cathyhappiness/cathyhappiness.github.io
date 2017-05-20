@@ -1,0 +1,207 @@
+            *{
+				margin: 0px;
+				padding: 0px;
+			}
+			html{
+				font-size:100px;
+			}
+			.container{
+				background: #f0f0f0;
+				width:6.4rem;
+				height: auto;
+			}
+			.head{
+				position: fixed;
+				top:0rem;
+				left:0rem;
+				background: #1a191f;
+				width:6.4rem;
+				height: 1.1rem;
+			}
+			.nav .back{
+			    position: relative;
+			    top:-0.16rem;
+				padding-left: 0.15rem;
+				width:0.16rem;
+				height: auto;
+			}
+			.nav a{
+				position: relative;
+				top:-0.2rem;
+				left: -0.1rem;
+				margin-left: -0.06rem;
+				font-size: 0.26rem;
+				color: #fff;
+				text-decoration: none;
+			}
+			.nav .logo{
+				position: relative;
+				top:-0.16rem;
+				left: 0.16rem;
+				width:1.8rem;
+				height: 0.28rem;
+			}
+			.nav .more{
+				position: relative;
+				bottom:0.24rem;
+				left: 1.5rem;
+				width:0.34rem;
+				height: auto;
+				cursor:pointer;
+			}
+			.home{			
+				position: fixed;
+				top:1.26rem;
+				left: 0.2rem;
+				width:0.4rem;
+				height: 0.4rem;
+            	padding:0.12rem;
+	            background:rgba(255,255,255,0.77);
+	            border:1px solid #c7c7c7;
+	            border-radius:0.34rem;
+			}
+			.home img{
+				position: fixed;
+				top:1.42rem;
+				left: 0.36rem;
+				width:0.36rem;
+				height: auto;
+			}
+			.lists{
+				position: fixed;
+				top:1.26rem;
+				right: 0.2rem;
+				width:0.4rem;
+				height: 0.4rem;
+            	padding:0.12rem;
+	            background:rgba(255,255,255,0.7);
+	            border:1px solid #c7c7c7;
+	            border-radius:0.34rem;
+			}
+			.lists img{
+				position: fixed;
+				top:1.45rem;
+				right: 0.4rem;
+				width:0.28rem;
+				height: auto;
+			}
+			.top img{
+				margin-top:1.1rem;
+				width:6.4rem;
+				height:auto;
+				vertical-align:top;
+			}
+            .flower{
+            	margin-top:0.14rem;
+            	background: #fff;
+            	width:6.4rem;
+            	height: 1.32rem;
+            	text-align: center;
+            }
+            .flower .img,.flower .bot{
+            	height: 0.26rem;
+            }
+            .flower .img{
+            	position: relative;
+            	top:-0.4rem;
+            }
+            .flower .bot{
+            	position: relative;
+            	bottom: 0.3rem;
+            }
+            .flower img{	
+            	width:0.38rem;
+            	margin:0rem 0.72rem;
+            }
+            .bot span{
+            	margin:0rem 0.46rem;
+            	font-size: 0.2rem;
+            	color: #494949;
+            }
+            .list,.list1{
+            	border-top:1px solid #ccc;
+            	background: #fff;
+            	height:auto ;
+            }
+            .list img{
+            	margin:0.2rem 0rem 0rem 0.2rem;
+            	width:2.84rem;
+            	height: auto;
+            }
+            .list1 img{
+            	margin:0.2rem 0.2rem 0rem 0.24rem;
+            	width:2.84rem;
+            	height: auto;
+            }
+            .list .introduction,.list1 .introduction{
+            	margin-top:0.22rem;
+            	width:2.9rem;
+            	height: auto; 
+            	letter-spacing: 0.01rem;
+            	line-height: 0.3rem;
+            	font-size: 0.2rem;
+            	color: #343434;
+            }
+            .list .introduction{
+            	float: right;
+            	margin-right: 0.2rem;
+            }
+            .list1 .introduction{
+            	float: left;
+            	margin-left: 0.2rem;
+            }
+            .introduction .tip{
+            	margin-top:0.22rem;
+            	margin-bottom: 0.5rem;
+            	font-size: 0.14rem;
+            	color: #aaa;
+            }
+           
+            .introduction .price{
+            	font-size: 0.22rem;
+            	color:#e19c08 ;
+            }
+            .introduction .btn{
+            	background: #fff;
+            	padding:0.03rem 0.14rem;
+            	margin-left: 0.58rem;
+            	border:1px solid #2a3e6c;
+            	border-radius: 0.08rem;
+            	font-size: 0.22rem;
+            	color: #2a3e6c;
+            }
+            .list1{
+            	margin-top: -0.1rem;
+            	background: #fff;
+            	height:auto ;
+            }
+             .spe{
+            border-top:none;
+            margin-top:0.14rem;
+            }
+            @media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+                .bot span{
+                	margin:0rem 0.4rem;
+                }
+                .introduction .tip{
+                	margin-bottom: 0.1rem;
+                }
+                .introduction .btn{
+                	margin-left: 0.34rem;
+                }
+            }
+            @media (device-height:1024px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+                .introduction .tip{
+                	font-size: 0.18rem;
+                }
+            }
+            @media (device-height:640px) and (-webkit-min-device-pixel-ratio:2){
+                .introduction .tip{
+                	margin-bottom: 0.26rem;
+                }
+            }
+             @media (device-height:652px) and (-webkit-min-device-pixel-ratio:2){
+                .introduction .tip{
+                	margin-bottom: 0.28rem;
+                }
+            }

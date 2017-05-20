@@ -1,0 +1,327 @@
+/**{
+				margin: 0px;
+				padding: 0px;
+			}
+			html{
+				font-size:100px;
+			}
+			.container{
+				background: #f0f0f0;
+				width:6.4rem;
+				height: auto;
+			}
+			.head{
+				position: fixed;
+				top:0rem;
+				left:0rem;
+				background: #1a191f;
+				width:6.4rem;
+				height: 1.08rem;
+			}
+			.nav .back{
+			    position: relative;
+			    top:-0.23rem;
+				padding-left: 0.15rem;
+				width:0.2rem;
+				height: 0.2rem;
+			}
+			.nav a{
+				position: relative;
+				top:-0.2rem;
+				left: -0.2rem;
+				margin-left: -0.06rem;
+				font-size: 0.26rem;
+				color: #fff;
+				text-decoration: none;
+			}
+			.nav .logo{
+				position: relative;
+				top:-0.16rem;
+				left: 0.16rem;
+				width:1.8rem;
+				height: 0.28rem;
+			}
+			.nav .more{
+				position: relative;
+				bottom:0.15rem;
+				left: 1.4rem;
+				width:0.4rem;
+				height: 0.1rem;
+			}
+			.home{			
+				position: fixed;
+				top:1.26rem;
+				left: 0.2rem;
+				width:0.4rem;
+				height: 0.4rem;
+            	padding:0.12rem;
+	            background:rgba(255,255,255,0.8);
+	            border:1px solid #c7c7c7;
+	            border-radius:0.34rem;
+			}
+			.home img{
+				position: fixed;
+				top:1.42rem;
+				left: 0.36rem;
+				width:0.36rem;
+				height: auto;
+			}
+			.list{
+				position: fixed;
+				top:1.26rem;
+				right: 0.2rem;
+				width:0.4rem;
+				height: 0.4rem;
+            	padding:0.12rem;
+	            background:rgba(255,255,255,0.8);
+	            border:1px solid #c7c7c7;
+	            border-radius:0.34rem;
+			}
+			.list img{
+				position: fixed;
+				top:1.45rem;
+				right: 0.4rem;
+				width:0.28rem;
+				height: auto;
+			}*/
+			.contain{
+				margin-top:1.08rem;
+			}
+			.banner img{
+				
+				width:6.4rem;
+				height:auto;
+				vertical-align:top;
+			}
+			section{
+	background:#f0f0f0;
+	padding:0rem;
+	font-size:0.16rem;
+}
+			.things{
+				background:#fff;
+				padding:0.2rem;
+				margin-bottom:0.1rem;
+			}
+			.things .title{
+				font-size:0.2rem;
+				font-weight:bold;
+			}
+			.tip{
+				color:#ccc;
+				position:relative;
+				top:0.04rem;
+			}
+			.current{
+				color:#e19c08;
+			}
+			.tips a{
+				color:#2a3e6c;
+				
+			}
+			/*.tips{
+				position:absolute;
+				right:0rem;
+	
+			}*/
+			.price{
+				padding-top:0.2rem;
+				position:relative;
+			}
+			.intro{
+				margin:0rem;
+				/*margin-bottom:0.8rem;*/
+				background:#fff;
+			}
+			
+			.intro .presentation{
+				color:#ff6161;
+				border-bottom:0.01rem #ccc solid;
+				margin-left:0rem;
+				padding-left:0.2rem;
+			}
+			.intro img{
+				width:0.3rem;
+			}
+			.intro .expre-tip{
+				position:absolute;
+				left:0.55rem;
+				top:0.1rem;
+			}
+			.intro .day,.intro .size{
+				position:absolute;
+				right:0.6rem;
+				bottom:0.1rem;
+			}
+			.intro .back{
+				width:0.1rem;
+				position:absolute;
+				right:0.2rem;
+				bottom:0.15rem;
+			}
+			.intro .mid{
+				border-bottom:0.01rem #ddd solid;
+			}
+			.intro div{
+				margin-left:0.1rem;
+				padding:0.1rem 0rem 0.1rem 0.1rem;
+				
+				position:relative;
+			} 
+			 /* footer{
+            	position: fixed;
+            	bottom: 0rem;
+            	right: 0rem;
+            	background: #f5f5f5;
+            	text-align: right;
+            	width:6.4rem;
+            	height:0.8rem;
+            }
+            footer .btn{
+            	position: relative;
+            	top:-0.56rem;
+            	background: #2a3e6c;
+            	border: none;
+            	color:#ecedf0;
+            	width:1.8rem;
+            	height:0.8rem;
+            	font-size:0.24rem ;
+            }*/
+           
+	.information .top,.recommend,.story,.shop{
+				border-top:0.144rem solid #f0f0f0;
+				/*width:6.4rem;*/
+				background:#fff;
+			}
+			.information .top{
+				/*margin-top: 1.08rem;*/
+				height: 1.6rem;
+			}
+			.information .details{
+				padding-top:0.22rem ;
+				padding-left: 0.18rem;
+				border-bottom:1px solid #d9d9d9;
+				text-shadow: #d8d8d8 0 1px 0;
+				/*width:6.4rem;*/
+				height: 0.44rem;
+				color: #343434;
+				font-size: 0.22rem;
+			}
+			.information .content{
+				padding-left: 0.18rem;
+				padding-top:0.36rem;
+				color: #666;
+				font-size: 0.2rem;
+			}
+			.information .content1,.information .content2,.information .content3{
+				padding-left: 0.18rem;
+				padding-right: 0.18rem;
+				padding-top:0.22rem;
+				line-height: 0.3rem;
+				color: #666;
+				font-size: 0.2rem;
+			}
+			.information .content3 .logistics{
+				padding-left: 0.16rem;
+				padding-bottom: 0.08rem;
+				background: #f5f5f5;
+				border-radius: 0.1rem;
+				width:5.9rem;
+				
+			}
+			.information .logistics .down{
+				margin-left: 4.4rem;
+				padding-top: 0.2rem;
+				width:0.22rem;
+			}
+			.information .logistics .top1{
+            	margin-left: 0.16rem;
+            	margin-right: 0.16rem;
+                padding-bottom: 0.24rem;
+				border-bottom:1px solid #d9d9d9;
+				width:5.7rem;
+				height: 0.4rem;
+            }
+            .information .logistics .main{
+            	padding:0.16rem;
+            	
+            }
+            .information .logistics .main .warning{
+            	color:#f00;
+            	margin-bottom:0.1rem;
+            }
+			.information .recommend{
+				height: 1.7rem;
+			}
+			.information .story{
+				height: 2.2rem;
+			}
+			.information .shop{
+				/*height: 4rem; */
+				margin-bottom: 1rem;
+			}
+            .information .return{
+            	margin-top: 0.12rem;
+            	margin-bottom: 0.12rem;
+				background: #f5f5f5;
+				/*border:1px solid #ccc;*/
+				border-radius: 0.1rem;
+				width:6.05rem;
+				/*height:3.4rem;*/
+            }
+            .information .return .top1{
+            	margin-left: 0.16rem;
+            	margin-right: 0.16rem;
+                padding-bottom: 0.24rem;
+				border-bottom:1px solid #d9d9d9;
+				width:5.7rem;
+				height: 0.4rem;
+            }
+            .information .top1 .down{
+            	margin-left: 4.2rem;
+				padding-top: 0.2rem;
+				width:0.22rem;
+            }
+            .information .return .main{
+            	padding:0.16rem;
+            	
+            }
+            .container aside{
+            	position:fixed;
+            	right:0rem;
+            	top:4.2rem;
+            }
+            .container aside a{
+            	display:block;
+            	color:#000;
+            	text-decoration:none;
+            	font-size:0.16rem;
+            	background:#ccc;
+            	width:0.45rem;
+            	height:0.45rem;
+            	line-height:0.25rem;
+            	padding:0.1rem;
+            	border:0.01rem solid #666;
+            }
+            #container .asidestyle{
+            background:#666;
+            }
+            @media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+              .container aside a{
+            	
+            	width:0.48rem;
+            	height:0.48rem;
+            	line-height:0.28rem;
+            	padding-bottom:0.15rem;
+
+            }
+            }
+            @media (device-height:640px) and (-webkit-min-device-pixel-ratio:2){
+              .container aside a{
+            	width:0.5rem;
+            	height:0.5rem;
+            	line-height:0.28rem;
+            	padding-bottom:0.1rem;
+
+            }
+            }

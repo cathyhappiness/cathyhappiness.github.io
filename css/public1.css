@@ -1,0 +1,13 @@
+*{
+				margin: 0px;
+				padding: 0px;
+			}
+			html{
+				font-size:100px;
+			}
+			.container{
+				background: #fff;
+				width:6.4rem;
+				height: auto;
+				font-size:0.16rem;
+			}

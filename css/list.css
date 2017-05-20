@@ -1,0 +1,65 @@
+.list,.list1{
+            	border-top:1px solid #ccc;
+            	
+            	background: #fff;
+            	height:auto ;
+            }
+            
+            .list img{
+            	margin:0.2rem 0rem 0rem 0.2rem;
+            	width:2.84rem;
+            	height: auto;
+            }
+            .list1 img{
+            	margin:0.2rem 0.2rem 0rem 0.24rem;
+            	width:2.84rem;
+            	height: auto;
+            }
+            .list .introduction,.list1 .introduction{
+            	margin-top:0.22rem;
+            	width:2.9rem;
+            	height: auto; 
+            	letter-spacing: 0.01rem;
+            	line-height: 0.3rem;
+            	font-size: 0.2rem;
+            	color: #343434;
+            }
+            .list .introduction{
+            	float: right;
+            	margin-right: 0.2rem;
+            }
+            .list1 .introduction{
+            	float: left;
+            	margin-left: 0.2rem;
+            }
+            .introduction .tip{
+            	margin-top:0.22rem;
+            	margin-bottom: 0.5rem;
+            	font-size: 0.14rem;
+            	color: #aaa;
+            }
+           
+            .introduction .price{
+            	font-size: 0.22rem;
+            	color:#e19c08 ;
+            }
+            .introduction .btn{
+            	background: #fff;
+            	padding:0.03rem 0.14rem;
+            	margin-left: 0.58rem;
+            	border:1px solid #2a3e6c;
+            	border-radius: 0.08rem;
+            	font-size: 0.22rem;
+            	color: #2a3e6c;
+            }
+            .list1{
+            	margin-top: -0.1rem;
+            	background: #fff;
+            	
+            	height:auto ;
+            }
+            .spe{
+            border-top:none;
+            margin-top:0.14rem;
+            }
+            
